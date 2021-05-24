@@ -14,4 +14,21 @@ header {
     background-repeat: no-repeat;
     background-position: left bottom;
 }
-
+h1 {
+    font-size: 30px;
+}
+#scrittoda {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}
+#nomeautore {
+    color: lightskyblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+#data{
+    color: grey;
+    font-size: 10px;
+    font-weight: bold;
+}
