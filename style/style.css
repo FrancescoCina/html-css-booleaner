@@ -5,17 +5,13 @@ header {
     background-repeat: repeat-x;
     height: 130px;    
 }
-
-.logo{
+#logo{
+    margin-top: 38px;
     height: 100px;
     width: 180px;  
-    background-image: url("../img/logo.svg");  
-    background-size: 180px;
-    background-repeat: no-repeat;
-    background-position: left bottom;
 }
 h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 #scrittoda {
     color: grey;
@@ -23,27 +19,59 @@ h1 {
     font-weight: bold;
 }
 #nomeautore {
-    color: lightskyblue;
+    color: rgb(89, 148, 238);
     font-size: 15px;
     font-weight: bold;
 }
-#data{
+#data {
     color: grey;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
 }
-.evidenziato{
+figcaption {
+    font-size: 10px;
+}
+.evidenziato {
     background-color: yellow ;
 }
-table{
+table {
     border-collapse: collapse;
    }
-th{
+th {
     background-color:rgb(3, 154, 241) ;
-    color: white;
-    border: 0;
-    margin: 0;   
+    color: white;   
+    text-align: left;
 }
-.dispari{
+.dispari {
     background-color: rgb(160, 212, 245);
+}
+.colonna1 {
+    width: 25%;
+}
+.colonna2 {
+    width: 25%;
+}
+.colonna3 {
+    width: 50%;
+}
+h3 {
+    color: grey;    
+}
+.correlati1 {
+    background-image: url("../img/graph.jpg");
+    width: 200px;
+    height: 200px;
+    color: white;    
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.correlati2 {
+    background-image: url("../img/monitor.jpg");
+    width: 200px;
+    height: 200px;
+    color: white;    
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 7px;
 }

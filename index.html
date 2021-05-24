@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
     <link rel="stylesheet" href="./style/style.css">
-    <!-- favicon -->
 </head>
-<body>
+<body>  
     <header>
-        <div class="logo"></div>
+        <!-- logo e background -->
+        <div>
+            <img src="./img/logo.svg" alt="Logo" id="logo">
+        </div>
     </header>
     <main>
-        <div class="titolo">
+        <section class="titolo">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>      
             <span id="scrittoda">Scritto da</span>
             <span id="nomeautore">The Booleaner</span>
             <p id="data">il 10/10/2020</p>           
-        </div>
-        <div class="fototim"> 
+        </section>
+        <section class="fototim"> 
             <img src="./img/tim-1.jpg" alt="Tim Berners-Lee">
             <img src="./img/tim-2.jpg" alt="Tim Berners-Lee">
             <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
             <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
-        </div>
+        </section>
+        <!-- primo testo -->
         <section>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nulla, vero iusto rem explicabo omnis obcaecati cumque inventore iste aliquid nobis distinctio facere officiis doloremque! <span class="evidenziato">Dolorem unde incidunt tenetur natus?</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptatum assumenda, iure nam incidunt perferendis veniam suscipit excepturi, soluta, harum nostrum autem voluptates possimus atque exercitationem quaerat voluptas ratione </p>
         </section>
@@ -46,9 +49,9 @@
                 </thead>
                 <tbody>
                     <tr class="dispari">
-                        <td>Lorem Ipsum dolor</td>
-                        <td>Lorem Ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea et assumenda, tenetur doloribus totam accusantium veniam incidunt, sequi tempora deserunt? Rerum, tempore doloribus minima commodi corporis vel laudantium tempora.</td>                   
+                        <td class="colonna1">Lorem Ipsum dolor</td>
+                        <td class="colonna2">Lorem Ipsum dolor</td>
+                        <td class="colonna3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea et assumenda, tenetur doloribus totam accusantium veniam incidunt, sequi tempora deserunt? Rerum, tempore doloribus minima commodi corporis vel laudantium tempora.</td>                   
                     </tr>
                     <tr>
                         <td>Lorem Ipsum dolor</td>
@@ -63,9 +66,16 @@
                 </tbody>            
             </table>            
         </section>
+        <!-- secondo testo -->
         <section>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nulla, vero iusto rem explicabo omnis obcaecati cumque inventore iste aliquid nobis distinctio facere officiis doloremque! Dolorem unde incidunt tenetur natus?<span class="evidenziato"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> Dignissimos voluptatum assumenda, iure nam incidunt perferendis veniam suscipit excepturi, soluta, harum nostrum autem voluptates possimus atque exercitationem quaerat voluptas ratione </p>
         </section>
     </main>
+    <!-- articoli correlati -->
+    <footer>        
+        <h3>Potrebbero interessarti</h3>
+        <div class="correlati1">Lorem ipsum dolor</div>        
+        <div class="correlati2">Lorem ipsum dolor</div>
+    </footer>
 </body>
 </html>
