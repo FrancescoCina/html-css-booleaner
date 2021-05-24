@@ -34,5 +34,16 @@ h1 {
 }
 .evidenziato{
     background-color: yellow ;
-
+}
+table{
+    border-collapse: collapse;
+   }
+th{
+    background-color:rgb(3, 154, 241) ;
+    color: white;
+    border: 0;
+    margin: 0;   
+}
+.dispari{
+    background-color: rgb(160, 212, 245);
 }
