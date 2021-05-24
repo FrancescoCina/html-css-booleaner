@@ -1,12 +1,17 @@
+body {
+    width: 1180px;
+    margin: 0 auto;
+}
+
 header {
     background-image: url("../img/pattern.png");
     background-size: 500px;
     background-color: rgb(102, 153, 255);
     background-repeat: repeat-x;
-    height: 130px;    
+    height: 100px;    
 }
 #logo{
-    margin-top: 38px;
+    margin-top: 25px;
     height: 100px;
     width: 180px;  
 }
