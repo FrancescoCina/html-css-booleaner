@@ -1,0 +1,17 @@
+header {
+    background-image: url("../img/pattern.png");
+    background-size: 500px;
+    background-color: rgb(102, 153, 255);
+    background-repeat: repeat-x;
+    height: 130px;    
+}
+
+.logo{
+    height: 100px;
+    width: 180px;  
+    background-image: url("../img/logo.svg");  
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
