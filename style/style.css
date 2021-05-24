@@ -1,22 +1,22 @@
 body {
     width: 1180px;
     margin: 0 auto;
-}
-
-header {
+   }
+ header {
     background-image: url("../img/pattern.png");
     background-size: 500px;
     background-color: rgb(102, 153, 255);
     background-repeat: repeat-x;
-    height: 100px;    
+    height: 100px;   
 }
 #logo{
-    margin-top: 25px;
+     margin-top: 25px; 
     height: 100px;
     width: 180px;  
 }
 h1 {
     font-size: 35px;
+    margin-bottom: 1px;
 }
 #scrittoda {
     color: grey;
@@ -67,16 +67,10 @@ h3 {
     width: 200px;
     height: 200px;
     color: white;    
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 7px;
 }
 .correlati2 {
     background-image: url("../img/monitor.jpg");
     width: 200px;
     height: 200px;
     color: white;    
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 7px;
 }
